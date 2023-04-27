@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Font Stype : Apple 
+        font-family: -apple-system-body
+        font-family: -apple-system-headline
+        font-family: -apple-system-subheadline
+        font-family: -apple-system-caption1
+        font-family: -apple-system-caption2
+        font-family: -apple-system-footnote
+        font-family: -apple-system-short-body
+        font-family: -apple-system-short-headline
+        font-family: -apple-system-short-subheadline
+        font-family: -apple-system-short-caption1
+        font-family: -apple-system-short-footnote
+        font-family: -apple-system-tall-body
+        */
+        body {
+            background-color: #333;
+            margin: 0;
+            font-family: -apple-system-body, BlinkMacSystemFont, sans-serif;
+        }
+
+        .hello {
+            color:white;
+            font-size: 100px;
+            margin-left: 100px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar a {
+            float: left;
+            display: inherit;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .navbar a:hover {
+            color: #999;
+        }
+
+        .main {
+            margin-top: 100px;
+        }
+
+        .grid-container {
+            display: grid;
+            column-gap: 2px;
+            grid-template-columns: 20% auto;
+            padding: 10px;
+        }
+
+        .grid-item {
+            /* background-color: rgb(255, 255, 255); */
+            /* padding: 20px; */
+            font-size: 15px;
+            text-align: center;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home">Logo</a>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="main">
+        <h1 class="hello">Hello!!</h1>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="face.jpg" height="150">
+            </div>
+            <div class="grid-item" style="background-color: #333;">
+                <p>
+                    สวัสดีผม <span style="font-size: 25px;">ภานุรุจ กลมอ่อน</span> เป็น Developer 
+                </p>
+                <!-- <p style="text-align: left;color:white; ">
+                    My name is Panurud Klom-on. my nickname is France. <br>
+                    I am 24 years old. Come from University of the Thai Chamber of Commerce.<br>
+                    Major is Computer Engineering. And what I’m doing for my project is License plate recognition and System
+                    using IP VDO camera. <br>
+                    I have a cooperative experience at NTT solutions (thailand) limited. please be informed accordingly.
+                </p> -->
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
